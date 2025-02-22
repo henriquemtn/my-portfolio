@@ -144,6 +144,62 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "SaaS Template",
+      href: "https://linkify-io.vercel.app/",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "Projeto de template para SaaS, com foco em conversão e usabilidade, feito com NextJS, TailwindCSS e Magic UI.",
+      technologies: [
+        "NextJS 15",
+        "TailwindCSS",
+        "Magic UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://linkify-io.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/henriquemtn/template-for-saas",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/saas.png",
+      video: "",
+      
+    },
+    {
+      title: "Casamento Vitor & Sharon",
+      href: "https://sea7.com.br/",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "Site feito para o casamento dos meus grandes amigos Vitor & Sharon, com informações sobre o evento, localização, lista de presentes e um área de administração para os noivos.",
+      technologies: [
+        "NextJS 15",
+        "TailwindCSS",
+        "Magic UI",
+        "Firebase"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vitoresharon.com.br/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/henriquemtn/wedding-vs",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/casamento.png",
+      video: "",
+    },
+    {
       title: "Better UI",
       href: "https://better-ui-zeta.vercel.app/",
       dates: "Nov 2024 - Presente",
@@ -175,6 +231,28 @@ export const DATA = {
       image: "",
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
+    {
+      title: "Sea7 Group",
+      href: "https://sea7.com.br/",
+      dates: "Nov 2022",
+      active: true,
+      description:
+        "Portfolio do Sea7 Group, com as embarcações disponíveis a venda, informações sobre a empresa, serviços, cases e um blog.",
+      technologies: [
+        "WIX",
+        "Custom Components"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sea7.com.br/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/sea7.png",
+      video: "",
+    },
+
   ],
   hackathons: [
     {
