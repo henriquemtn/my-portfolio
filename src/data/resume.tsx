@@ -4,26 +4,23 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Henrique Silveira",
   initials: "HS",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://henriquesilveira.tech",
+  location: "Florianópolis, SC, Brasil",
+  locationLink: "https://www.google.com/maps/place/florianopolis",
   description:
     "FullStack Developer. Amo criar projetos e soluções que ajudam as pessoas. Florianópolis, SC 🇧🇷",
   summary:
     "Engenheiro de software com mais de 2 anos de experiência. Trabalhei em startups inovadoras, produtos de grandes empresas e agências premiadas. Familiarizado com funções tanto remotas quanto presenciais. Sempre busca assumir a responsabilidade pelo projeto e entregar mais rápido do que o esperado. Confortável com desenvolvimento web, mobile e de APIs.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpeg",
   skills: [
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
     "Python",
-    "Go",
     "Postgres",
     "Docker",
-    "Ruby on Rails",
     "Java",
-    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -72,16 +69,16 @@ export const DATA = {
 
   work: [
     {
-      company: "RISE",
+      company: "Serverbit",
       href: "https://atomic.finance",
       badges: [],
       location: "Remote",
-      title: "Fullstack Developer",
-      logoUrl: "/rise.jpeg",
-      start: "Nov 2024",
+      title: "Full Stack Software Engineer",
+      logoUrl: "/serverbit.jpeg",
+      start: "Jan 2025",
       end: "Presente",
       description:
-        "Atuei como desenvolvedor FullStack, criando um LMS focado em programação, a RISE é uma empresa composta por jovens que amam desenvolver, e juntos buscam uma solução para contribuir com o ensino de tecnológia nas escolas do Brasil.",
+        "Fui responsável pelo lançamento de funcionalidades inovadoras e pela manutenção geral de sistemas críticos como pagamentos e chat. Participei da implementação de um CRM integrado ao EC2 e Mautic para gestão de leads, além de desenvolver painéis administrativos para gerenciamento de aplicações. Também implementei notificações em tempo real com WebSocket e estive presente em todas as etapas de melhoria e desenvolvimento do software, contribuindo diretamente para o crescimento da aplicação e aumento do engajamento dos usuários.",
     },
     {
       company: "Avanti",
@@ -112,26 +109,26 @@ export const DATA = {
     {
       school: "Harvard University",
       href: "https://certificates.cs50.io/cca93398-6bc2-41b7-91e8-edf3779c6e5e.pdf?size=letter",
-      degree: "CS50 - Introduction to Computer Science",
+      degree: "CS50 - Introduction to Programming with Python",
       logoUrl: "/harvard.png",
-      start: "2023",
-      end: "2023",
+      start: "Ago 2024",
+      end: "Ago 2024",
     },
     {
       school: "Harvard University",
       href: "https://certificates.cs50.io/cca93398-6bc2-41b7-91e8-edf3779c6e5e.pdf?size=letter",
-      degree: "CS50 - Introduction to Programming with Python",
+      degree: "CS50 - Introduction to Computer Science",
       logoUrl: "/harvard.png",
-      start: "2023",
-      end: "2023",
+      start: "Ago 2023",
+      end: "Out 2023",
     },
     {
       school: "Senac Santa Catarina",
       href: "https://www.linkedin.com/school/senac-sc/posts/?feedView=all",
       degree: "Curso Técnico",
       logoUrl: "/senac.jpeg",
-      start: "2023",
-      end: "2024",
+      start: "Abr 2023",
+      end: "Jan 2024",
     },
     {
       school: "Estácio",
@@ -169,7 +166,7 @@ export const DATA = {
       ],
       image: "/saas.png",
       video: "",
-      
+
     },
     {
       title: "Casamento Vitor & Sharon",
